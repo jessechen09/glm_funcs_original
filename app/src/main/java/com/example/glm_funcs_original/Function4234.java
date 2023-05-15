@@ -1,5 +1,19 @@
+package com.example.glm_funcs_original;
+
+import android.util.Base64;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import javax.crypto.spec.SecretKeySpec;
+
+import kotlin.jvm.internal.Intrinsics;
 public class Function4234 {
-      public final void setPassword() {
+    private Object context; // JC
+    private Function4232 loginReqModel; // JC
+
+    public final void setPassword() {
         LoginResponseModel.Data data;
         List split$default;
         LoginResponseModel loginDetail = SharedPrefs.INSTANCE.getLoginDetail(MyApplication.Singleton.getInstance());

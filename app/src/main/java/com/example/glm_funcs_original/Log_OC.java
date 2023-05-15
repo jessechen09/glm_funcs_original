@@ -16,6 +16,7 @@ public class Log_OC {
     }
 
     public static String m10359a(String s, Object $r12) {
+        return null;
     }
 
     public static void getArray(String str, String alias) {

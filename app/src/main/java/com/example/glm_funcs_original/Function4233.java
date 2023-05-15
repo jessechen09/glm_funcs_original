@@ -1,5 +1,24 @@
+package com.example.glm_funcs_original;
+
+import android.util.Base64;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import javax.crypto.spec.SecretKeySpec;
+
+import kotlin.jvm.internal.Intrinsics;
+
 public class Function4233 {
-      public final void checkBioMetricEnable() {
+    private Object context; // JC
+    private LoginResponseModel.Data loginReqModel; // JC
+    private boolean isRejectFromDialog; // JC
+    private boolean isBiometric; // JC
+    private boolean isLoginAPI; // JC
+    private boolean isFingerPrint; // JC
+
+    public final void checkBioMetricEnable() {
         List split$default;
         LoginResponseModel loginDetail = SharedPrefs.INSTANCE.getLoginDetail(MyApplication.Singleton.getInstance());
         if ((loginDetail != null ? loginDetail.getData() : null) == null || !(!SharedPrefs.INSTANCE.getEmailPass(this.context).isEmpty())) {

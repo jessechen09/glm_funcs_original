@@ -1,7 +1,10 @@
+package com.example.glm_funcs_original;
+
+import java.net.URL;
 public class Function14049 {
           private String getTitleFromUrl(String str) {
-            URL url;
-            String host;
+            URL url = null;
+            String host = null; // JC
             String file;
             try {
                 url = new URL(str);

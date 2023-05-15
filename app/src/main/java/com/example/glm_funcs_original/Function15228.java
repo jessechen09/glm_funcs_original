@@ -1,3 +1,12 @@
+package com.example.glm_funcs_original;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+
+import javax.crypto.Cipher;
+import javax.crypto.CipherInputStream;
+
 public class Function15228 {
       private byte[] decryptCipherText(Cipher cipher, byte[] bArr) throws IOException {
         CipherInputStream cipherInputStream = new CipherInputStream(new ByteArrayInputStream(bArr), cipher);

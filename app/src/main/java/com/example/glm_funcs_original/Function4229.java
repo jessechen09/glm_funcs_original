@@ -1,12 +1,27 @@
+package com.example.glm_funcs_original;
+
+import java.nio.charset.Charset;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+
+import javax.crypto.spec.SecretKeySpec;
+
+import kotlin.jvm.internal.Intrinsics;
+
+
 public class Function4229 {
-      public final void setKey(String myKey) {
+    private static final String STRING_CHARSET_NAME = null; // JC
+
+    public final void setKey(String myKey) {
         Intrinsics.checkNotNullParameter(myKey, "myKey");
         try {
-            Charset forName = Charset.forName(Key.STRING_CHARSET_NAME);
+            // Charset forName = Charset.forName(Key.STRING_CHARSET_NAME);
+            Charset forName = Charset.forName(STRING_CHARSET_NAME); // JC
             Intrinsics.checkNotNullExpressionValue(forName, "Charset.forName(charsetName)");
             byte[] bytes = myKey.getBytes(forName);
             Intrinsics.checkNotNullExpressionValue(bytes, "(this as java.lang.String).getBytes(charset)");
-            key = bytes;
+            byte[] key = bytes; // JC
             MessageDigest messageDigest = MessageDigest.getInstance(McElieceCCA2KeyGenParameterSpec.SHA1);
             byte[] bArr = key;
             if (bArr == null) {
@@ -25,10 +40,15 @@ public class Function4229 {
             if (bArr2 == null) {
                 Intrinsics.throwUninitializedPropertyAccessException("key");
             }
-            secretKey = new SecretKeySpec(bArr2, "AES");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e2) {
+            SecretKeySpec secretKey = new SecretKeySpec(bArr2, "AES");
+        }
+
+        // JC
+//        catch (UnsupportedEncodingException e) {
+//            e.printStackTrace();
+//        }
+
+        catch (NoSuchAlgorithmException e2) {
             e2.printStackTrace();
         }
     }

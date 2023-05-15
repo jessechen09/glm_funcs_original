@@ -7,5 +7,6 @@ public class PFSecurityUtilsOld$rsaDecrypt$1 {
     }
 
     public Object invoke() {
+        return null;
     }
 }

@@ -1,3 +1,18 @@
+package com.example.glm_funcs_original;
+
+import android.content.Context;
+import android.icu.util.Calendar;
+import android.security.KeyPairGeneratorSpec;
+import android.util.Log;
+
+import java.io.IOException;
+import java.math.BigInteger;
+import java.security.GeneralSecurityException;
+import java.security.KeyPairGenerator;
+import java.security.KeyStore;
+import java.security.PublicKey;
+
+import javax.security.auth.x500.X500Principal;
 public class Function15219 {
       private PublicKey getOrCreatePublicKey(String str) throws GeneralSecurityException, IOException {
         KeyStore keyStore = KeyStore.getInstance(getKeyStore());
@@ -15,5 +30,13 @@ public class Function15219 {
             Log.i(Constants.TAG, "created new asymmetric keys for alias");
         }
         return keyStore.getCertificate(str).getPublicKey();
+    }
+
+    private Context getContext() { // JC
+        return null;
+    }
+
+    private String getKeyStore() { // JC
+        return null;
     }
 }

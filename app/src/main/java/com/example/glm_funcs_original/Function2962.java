@@ -5,6 +5,7 @@ import com.google.firebase.perf.network.FirebasePerfUrlConnection;
 import java.io.BufferedInputStream;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.net.URL;
 import java.net.URLConnection;
 
 

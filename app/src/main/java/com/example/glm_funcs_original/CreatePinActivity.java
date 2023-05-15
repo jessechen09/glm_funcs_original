@@ -11,9 +11,11 @@ public class CreatePinActivity {
     }
 
     public static EditPinRequestModel getEditPinRequestModel() {
+        return null;
     }
 
     public static String getId() {
+        return null;
     }
 
     public static void setResult(int i, Intent intent) {

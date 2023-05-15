@@ -7,7 +7,9 @@ import java.security.*;
 import java.security.cert.CertificateException;
 
 public class Function2620 {
-      private final KeyStore loadKeyStore() throws PFSecurityException {
+    private C5325g firebase;
+
+    private final KeyStore loadKeyStore() throws PFSecurityException {
         try {
             KeyStore $r1 = KeyStore.getInstance("AndroidKeyStore");
             $r1.load(null);

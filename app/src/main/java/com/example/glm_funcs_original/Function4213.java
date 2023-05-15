@@ -9,6 +9,7 @@ import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.JWEAlgorithm;
 import com.nimbusds.jose.JWEHeader;
 import com.nimbusds.jose.JWEObject;
+import com.nimbusds.jose.Payload;
 import com.nimbusds.jose.crypto.RSAEncrypter;
 import com.nimbusds.jose.jwk.JWKParameterNames;
 import com.nimbusds.jose.util.Base64URL;
@@ -58,6 +59,7 @@ public class Function4213 {
                     PrivateKey generatePrivate = keyFactory.generatePrivate(rSAPrivateKeySpec);
                     Objects.requireNonNull(generatePrivate, "null cannot be cast to non-null type java.security.interfaces.RSAPrivateKey");
                     Log.e("publicRSAKey", "Is " + rSAPublicKey + "   privateRSAKey== " + ((RSAPrivateKey) generatePrivate));
+                    byte[] str = null; // JC
                     JWEObject jWEObject = new JWEObject(new JWEHeader.Builder(new JWEHeader(JWEAlgorithm.RSA_OAEP, EncryptionMethod.A128CBC_HS256)).keyID(obj.toString()).build(), new Payload(str));
                     jWEObject.encrypt(new RSAEncrypter(rSAPublicKey));
                     CreatePinActivity.getEditPinRequestModel().setId(CreatePinActivity.getId());

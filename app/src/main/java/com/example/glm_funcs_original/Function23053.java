@@ -1,5 +1,11 @@
+
+package com.example.glm_funcs_original;
+
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 public class Function23053 {
-      public static final String m40439a(String str) {
+      public static final String m40439a(String str) throws NoSuchAlgorithmException {
         String m18540i0;
         C25938n.m13482h(str, "<this>");
         MessageDigest messageDigest = MessageDigest.getInstance("MD5");

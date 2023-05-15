@@ -1,5 +1,20 @@
+package com.example.glm_funcs_original;
+
+import android.util.Base64;
+
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+
+import javax.crypto.Cipher;
+import javax.crypto.spec.GCMParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
+
 public class Function15218 {
-      private String decrypt(String str) {
+    private static final String CIPHER_INSTANCE_TYPE = null; // JC
+    private static final byte[] AAD = null; // JC
+    private static final String SECRET_ALG = ""; // JC
+
+    private String decrypt(String str) {
         if (str == null) {
             return str;
         }

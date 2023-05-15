@@ -11,7 +11,7 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 
 public class Function2969 {
-      public static void allowAllSSL() throws KeyManagementException, NoSuchAlgorithmException {
+    public static void allowAllSSL() throws KeyManagementException, NoSuchAlgorithmException {
         SSLContext sSLContext;
         NoSuchAlgorithmException e;
         KeyManagementException e2;
@@ -21,14 +21,15 @@ public class Function2969 {
                 return true;
             }
         });
-          TrustManager[] trustManagers;
-          trustManagers = new TrustManager[0];
-          if (trustManagers == null) {
+        TrustManager[] trustManagers;
+        trustManagers = new TrustManager[0];
+        if (trustManagers == null) {
             trustManagers = new TrustManager[]{new TrustManagerManipulator()};
         }
         try {
             sSLContext = SSLContext.getInstance("TLS");
         }
+        // JC
         //        catch (KeyManagementException e3) {
 //            sSLContext = null;
 //            e2 = e3;
@@ -44,6 +45,8 @@ public class Function2969 {
             e2.printStackTrace();
             HttpsURLConnection.setDefaultSSLSocketFactory(sSLContext.getSocketFactory());
         }
+
+        // JC
 //        catch (NoSuchAlgorithmException e6) {
 //            e = e6;
 //            e.printStackTrace();

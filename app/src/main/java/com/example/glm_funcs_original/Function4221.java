@@ -1,5 +1,22 @@
+package com.example.glm_funcs_original;
+
+import android.util.Base64;
+
+import java.nio.charset.Charset;
+import java.util.Objects;
+
+import javax.crypto.Cipher;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
+
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.text.Charsets;
+
 public class Function4221 {
-      public final String encryptText(String plainText) throws Exception {
+  private static final String ENCRYPTION_KEY = ""; // JC
+  private static final String ENCRYPTION_IV = ""; // JC
+
+  public final String encryptText(String plainText) throws Exception {
         Intrinsics.checkNotNullParameter(plainText, "plainText");
         byte[] bytes = plainText.getBytes(Charsets.UTF_8);
         Intrinsics.checkNotNullExpressionValue(bytes, "(this as java.lang.String).getBytes(charset)");

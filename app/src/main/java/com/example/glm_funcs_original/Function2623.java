@@ -10,11 +10,11 @@ import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 
 public class Function2623 {
-      public String encode(Context context, String str, String str2, boolean z) throws PFSecurityException {
+    public String encode(Context context, String str, String str2, boolean z) throws PFSecurityException {
         byte[] $r5;
         Log_OC.getArray(String.valueOf(context), "context");
         Log_OC.getArray(str, "alias");
-//          Log_OC.getArray(str2, MetricTracker.Object.INPUT);
+        // Log_OC.getArray(str2, MetricTracker.Object.INPUT); // JC
         try {
             Cipher $r4 = getEncodeCipher(context, str, z);
             if ($r4 == null) {
@@ -50,5 +50,6 @@ public class Function2623 {
     }
 
     private Cipher getEncodeCipher(Context context, String str, boolean z) {
+        return null;
     }
 }

@@ -20,9 +20,9 @@ public class Function2617 {
     private void generateKeyIfNecessary(Context context, KeyStore $r4, String str, boolean z) {
     }
 
-    private KeyStore loadKeyStore() {
+    private KeyStore loadKeyStore() { return null;
     }
 
-    private Cipher getCipherInstance() {
+    private Cipher getCipherInstance() { return null;
     }
 }

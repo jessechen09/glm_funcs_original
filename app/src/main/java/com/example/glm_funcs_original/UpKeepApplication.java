@@ -4,5 +4,6 @@ import android.content.Context;
 
 public class UpKeepApplication {
     public static Context getInstance() {
+        return null;
     }
 }

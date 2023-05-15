@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 import javax.crypto.*;
 public class Function2629 {
-    private static final String RSA_MODE = "";
-    private static final String PROVIDER = "";
+    private static final String RSA_MODE = ""; // JC
+    private static final String PROVIDER = ""; // JC
 
     private final byte[] rsaDecrypt(byte[] bArr, String str) throws Exception {
         KeyStore $r3 = loadKeyStore();

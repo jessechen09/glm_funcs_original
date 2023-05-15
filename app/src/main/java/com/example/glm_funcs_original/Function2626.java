@@ -18,6 +18,6 @@ public class Function2626 {
     }
 
     private boolean generateKey(Context context, String str, boolean z) {
-          return True;
+          return true;
     }
 }
