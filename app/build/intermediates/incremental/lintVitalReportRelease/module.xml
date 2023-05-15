@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/jessechen/Documents/GitHub/glm_funcs_original/app"
+    name=":app"
+    type="APP"
+    maven="glm_funcs_original:app:"
+    agpVersion="8.0.1"
+    buildFolder="build"
+    bootClassPath="/Users/jessechen/Library/Android/sdk/platforms/android-33/android.jar:/Users/jessechen/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

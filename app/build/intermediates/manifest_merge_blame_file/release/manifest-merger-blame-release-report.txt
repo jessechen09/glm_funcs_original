@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.glm_funcs_original"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:11:5-67
+11-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-config:20.0.2] /Users/jessechen/.gradle/caches/transforms-3/f044b71566c0640cb5240d6ec1719026/transformed/firebase-config-20.0.2/AndroidManifest.xml:25:5-79
+12-->[com.google.firebase:firebase-config:20.0.2] /Users/jessechen/.gradle/caches/transforms-3/f044b71566c0640cb5240d6ec1719026/transformed/firebase-config-20.0.2/AndroidManifest.xml:25:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/jessechen/.gradle/caches/transforms-3/72fcc53bfb89d40053247af38222f4c0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.glm_funcs_original.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/jessechen/.gradle/caches/transforms-3/72fcc53bfb89d40053247af38222f4c0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/jessechen/.gradle/caches/transforms-3/72fcc53bfb89d40053247af38222f4c0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.glm_funcs_original.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/jessechen/.gradle/caches/transforms-3/72fcc53bfb89d40053247af38222f4c0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/jessechen/.gradle/caches/transforms-3/72fcc53bfb89d40053247af38222f4c0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:5:5-14:32
+21        android:allowBackup="true"
+21-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/jessechen/.gradle/caches/transforms-3/72fcc53bfb89d40053247af38222f4c0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:7:9-65
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:8:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:9:9-43
+27        android:label="@string/app_name"
+27-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:10:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:11:9-54
+29        android:supportsRtl="true"
+29-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:12:9-35
+30        android:theme="@style/Theme.Glm_funcs_original" >
+30-->/Users/jessechen/Documents/GitHub/glm_funcs_original/app/src/main/AndroidManifest.xml:13:9-56
+31        <provider
+31-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:14:9-18:39
+32            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+32-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:15:13-82
+33            android:authorities="com.example.glm_funcs_original.firebaseperfprovider"
+33-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:16:13-72
+34            android:exported="false"
+34-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:17:13-37
+35            android:initOrder="101" />
+35-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:18:13-36
+36
+37        <service
+37-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:20:9-26:19
+38            android:name="com.google.firebase.components.ComponentDiscoveryService"
+38-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:21:13-84
+39            android:directBootAware="true"
+39-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:34:13-43
+40            android:exported="false" >
+40-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:22:13-37
+41            <meta-data
+41-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:23:13-25:85
+42                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+42-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:24:17-109
+43                android:value="com.google.firebase.components.ComponentRegistrar" />
+43-->[com.google.firebase:firebase-perf:19.1.0] /Users/jessechen/.gradle/caches/transforms-3/a48a4f3f75709b6ff935232f436727d6/transformed/firebase-perf-19.1.0/AndroidManifest.xml:25:17-82
+44            <meta-data
+44-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/jessechen/.gradle/caches/transforms-3/fc53852313bf2b0178e0fc120acbc4a5/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+45                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+45-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/jessechen/.gradle/caches/transforms-3/fc53852313bf2b0178e0fc120acbc4a5/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/jessechen/.gradle/caches/transforms-3/fc53852313bf2b0178e0fc120acbc4a5/transformed/firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+47            <meta-data
+47-->[com.google.firebase:firebase-config:20.0.2] /Users/jessechen/.gradle/caches/transforms-3/f044b71566c0640cb5240d6ec1719026/transformed/firebase-config-20.0.2/AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+48-->[com.google.firebase:firebase-config:20.0.2] /Users/jessechen/.gradle/caches/transforms-3/f044b71566c0640cb5240d6ec1719026/transformed/firebase-config-20.0.2/AndroidManifest.xml:33:17-117
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-config:20.0.2] /Users/jessechen/.gradle/caches/transforms-3/f044b71566c0640cb5240d6ec1719026/transformed/firebase-config-20.0.2/AndroidManifest.xml:34:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/jessechen/.gradle/caches/transforms-3/dceccf22efc91f7aebece6b9ac58a123/transformed/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+51                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+51-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/jessechen/.gradle/caches/transforms-3/dceccf22efc91f7aebece6b9ac58a123/transformed/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/jessechen/.gradle/caches/transforms-3/dceccf22efc91f7aebece6b9ac58a123/transformed/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-installations:17.1.3] /Users/jessechen/.gradle/caches/transforms-3/f83aedd703ea89cdc0dd830b0a4ca97d/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+54                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+54-->[com.google.firebase:firebase-installations:17.1.3] /Users/jessechen/.gradle/caches/transforms-3/f83aedd703ea89cdc0dd830b0a4ca97d/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-installations:17.1.3] /Users/jessechen/.gradle/caches/transforms-3/f83aedd703ea89cdc0dd830b0a4ca97d/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-abt:20.0.0] /Users/jessechen/.gradle/caches/transforms-3/2af63d2db974a0280dc29d8708e4db95/transformed/firebase-abt-20.0.0/AndroidManifest.xml:13:13-15:85
+57                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+57-->[com.google.firebase:firebase-abt:20.0.0] /Users/jessechen/.gradle/caches/transforms-3/2af63d2db974a0280dc29d8708e4db95/transformed/firebase-abt-20.0.0/AndroidManifest.xml:14:17-109
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-abt:20.0.0] /Users/jessechen/.gradle/caches/transforms-3/2af63d2db974a0280dc29d8708e4db95/transformed/firebase-abt-20.0.0/AndroidManifest.xml:15:17-82
+59        </service>
+60
+61        <provider
+61-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:25:9-30:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:26:13-77
+63            android:authorities="com.example.glm_funcs_original.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:27:13-72
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:28:13-43
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:29:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:20.3.1] /Users/jessechen/.gradle/caches/transforms-3/a93788ec313b7fd12a007495ead008f1/transformed/firebase-common-20.3.1/AndroidManifest.xml:30:13-36
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jessechen/.gradle/caches/transforms-3/ab1a041442a94e880b6d4578589c0b3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jessechen/.gradle/caches/transforms-3/ab1a041442a94e880b6d4578589c0b3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:18.1.0] /Users/jessechen/.gradle/caches/transforms-3/ab1a041442a94e880b6d4578589c0b3b/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.glm_funcs_original.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/jessechen/.gradle/caches/transforms-3/d87078cffa9dba63f16c362b5bdf7797/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jessechen/.gradle/caches/transforms-3/1e15f5509e5e8e01c926dac2286277f3/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jessechen/.gradle/caches/transforms-3/1e15f5509e5e8e01c926dac2286277f3/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jessechen/.gradle/caches/transforms-3/1e15f5509e5e8e01c926dac2286277f3/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+82        </provider>
+83
+84        <service
+84-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/82e55e2067d2c0e172916360ff78fb3b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+85            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+85-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/82e55e2067d2c0e172916360ff78fb3b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+86            android:exported="false" >
+86-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/82e55e2067d2c0e172916360ff78fb3b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+87            <meta-data
+87-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/82e55e2067d2c0e172916360ff78fb3b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+88                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+88-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/82e55e2067d2c0e172916360ff78fb3b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+89                android:value="cct" />
+89-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/82e55e2067d2c0e172916360ff78fb3b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+90        </service>
+91        <service
+91-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+92            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+92-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+93            android:exported="false"
+93-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+94            android:permission="android.permission.BIND_JOB_SERVICE" >
+94-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+95        </service>
+96
+97        <receiver
+97-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+98            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+98-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+99            android:exported="false" />
+99-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/jessechen/.gradle/caches/transforms-3/8a99f4c205e02bb5c194a070e908478b/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+100    </application>
+101
+102</manifest>
